@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Welcome to MusicAT</title>
+
+    <script type="text/javascript" src="./config/sound.json"></script>
+    <script type="text/javascript" src="./config/bg_music.json"></script>
+    <script type="text/javascript" src="./config/setting.json"></script>
+    <script src="./js/jquery.js"></script>
+    <script src="./js/keyboard.js"></script>
+    <style>
+        .btn {
+            width: 300px;
+            height: 30px;
+            background-color: lemonchiffon;
+            border: 2px solid;
+            border-color: darkgoldenrod;
+            margin-top: 4px;
+            text-align: center;
+            font-size: 20px;
+        }
+        .current_li{
+            background-color: mediumblue;
+            color: white;
+        }
+        .list_li{
+            font-size:18px;
+            height:20px;
+        }
+        .title {
+            font-size:36px;
+        }
+        .scroll {
+            width:100%;
+            height:90%;
+            overflow:overlay;
+        }
+    </style>
+</head>
+<body style="width: 1300px;height: 600px;">
+
+<audio id="sound_player" onplay="onSoundStart();" onended="onSoundEnd();"></audio>
+<audio id="bg_player" onplay="onBgMusicStart();" onended="onBgMusicEnd();"></audio>
+
+<div id="main" style="width:100%;height: 100%;">
+    <div id="left_block" style="width:450px;height: 80%;background-color: red;float: left;">
+        <b class="title">Bg music</b>
+        <b id="bg_music_playing"></b>
+        <div class="scroll" id="bg_music_list_scroll">
+            <ul id="bg_music_list"></ul>
+        </div>
+    </div>
+    <div id="middle_block" style="width: 450px;height: 80%;background-color: blueviolet; float: left">
+        <b class="title">Sound effect </b>
+        <b id="sound_playing"></b>
+        <div class="scroll" id="sound_list_scroll">
+            <ul id="sound_list"></ul>
+        </div>
+    </div>
+    <div id="right_block" style="width: 380px;height: 80%;background-color: olivedrab; float: left">
+        <b class="title">Control</b>
+        <div class="scroll">
+            <ul>
+                <li>Background music</li>
+                <li>
+                    <div class="btn" onclick="onPlayBackgroundMusic();">Play(f)</div>
+                </li>
+                <li>
+                    <div class="btn" onclick="onSkipToLastBgMusic();">Skip to last(q)</div>
+                </li>
+                <li>
+                    <div class="btn" onclick="onSkipToNextBgMusic();">Skip to next(w)</div>
+                </li>                
+                <li>
+                    Sound
+                </li>
+                <li>
+                    <div class="btn" onclick="onPlaySoundClick();">Play(j)</div>
+                </li>
+                <li>
+                    <div class="btn" onclick="onSkipToLastSound();">Skip to last(o)</div>
+                </li>
+                <li>
+                    <div class="btn" onclick="onSkipToNextSound();">Skip to next(p)</div>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+<script src="./js/main.js" type="text/javascript"></script>
+</body>
+</html>
