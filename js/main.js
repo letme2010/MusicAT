@@ -51,8 +51,19 @@ function initKey() {
         onPlayBgMusic();
     });
 
+    KeyboardJS.on('space', function(){
+        onPauseBgMusic();
+    });
+
 }
 
+function onPauseBgMusic() {
+    $('#bg_player')[0].pause();
+}
+
+function goOnBgMusic() {
+    $('#bg_player')[0].play();
+}
 
 function onPlayBgMusic() {
     var audioName = gBgMusicList[gCurrentBgIndex];
@@ -135,10 +146,34 @@ function onPlaySoundClick() {
     var audioName = gSoundList[gCurrentSoundIndex];
     var _jqSoundPlayer = $('#sound_player');
     _jqSoundPlayer.attr('src', "./res/sound/" + audioName);
+    beforeSoundPlay(audioName);
     _jqSoundPlayer[0].play();
+    afterSoundPlay(audioName);
     _jqSoundPlayer[0].volume = gSoundVolume;
     var index = (++gCurrentSoundIndex) % gSoundList.length;
     setCurrentSoundIndex(index);
+}
+
+function beforeSoundPlay(aAudioName) {
+    if ("进入地下.wav" == aAudioName) {
+        onPauseBgMusic();
+    } else if ("回到地面.wav" == aAudioName) {
+        onPauseBgMusic();        
+    } else if ("时间暂停.wav" == aAudioName) {
+        onPauseBgMusic();
+    } else if ("死.wav" == aAudioName) {
+        onPauseBgMusic();
+    }
+}
+
+function afterSoundPlay(aAudioName) {
+    if ("进入地下.wav" == aAudioName) {
+        setTimeout(function(){onPlayBgMusic();}, 2000);
+    } else if ("回到地面.wav" == aAudioName) {
+        setTimeout(function(){onPlayBgMusic();}, 2000);   
+    } else if ("解除暂停.wav" == aAudioName) {
+        goOnBgMusic();
+    }
 }
 
 function pathToFileName(aPath) {
