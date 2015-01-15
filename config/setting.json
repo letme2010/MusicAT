@@ -1,2 +1,2 @@
-var gBgMusicVolume = 0.5;
+var gBgMusicVolume = 0.3;
 var gSoundVolume = 1.0;
