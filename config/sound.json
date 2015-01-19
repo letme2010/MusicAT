@@ -2,11 +2,36 @@ var gSoundList = [
 
 "[m]今天天气好好噢.wav",
 
+"[p]Mario我在这里 .wav",
+
+"[B]公主在我手上.wav",
+
+"[m]混蛋_放开那公主_让我来.wav",
+
+"[B]你以为这么简单吗.wav",
+
+"[B]先来闯关吧.wav",
+
+"[m]哪里.wav",
+
 "金币X5.wav",
+
+"[M]笨蛋_快顶砖呀.wav",
+
+"[m]谁在说话_噢.wav",
+
+//[option]噢，原来我也有蜘蛛感应
+
 "跳[小].wav",
 "出蘑菇.wav",
 "变大.wav",
-"大Mario出场show肌肉.wav",
+"大Mario出场.wav",
+
+"[m]你是谁.wav",
+
+"[M]吃完蘑菇.wav",
+
+"[m]我会回来的.wav",
 
 "跳[大].wav",
 "出小红花.wav",
@@ -14,20 +39,21 @@ var gSoundList = [
 "跳[大].wav",
 "被龟咬.wav",
 
+"[m]我都说了我会回来的.wav",
+
 "跳[小].wav",
 "踩龟.wav",
 "龟壳撞击.wav",
 "跳[小].wav",
 
-"喷火.wav",
-"喷火.wav",
+//"boss睡着.wav",
+"boss龙叫声.wav",
+"aha.wav",
 
-"aha.ogg",
-
-"送小红花.wav",
+"送iphone.wav",
 
 "跳[小].wav",//食人花前的一跳
-"爆裤挡.wav",
+"Mario中招.wav",
 "跳[小].wav",//跳起踩蘑菇怪
 "蘑菇怪死.wav",
 
@@ -44,12 +70,26 @@ var gSoundList = [
 
 "回到地面.wav",
 
-//不给我、不给我、不给我、不给我、。。。。
+"[m]公主_我来了.wav",
+
+"[B]我们走咯_88.wav",
+
+"[p]救我呀Mario_救我.wav",
+
+"[m]公主_等我.wav",
 
 "引擎启动.wav",
 
+"[B]美少女_约不.wav",
+
+"[S]可恶.wav",
+
 "美少女出招.wav",
-"美少女打中Mario.wav",
+"Mario中招.wav",
+
+"[D]又是与千颂伊约会的时候了.wav",
+
+"[B]小白脸_别挡路.wav",
 
 "时间暂停.wav",
 "解除暂停.wav",
@@ -62,12 +102,14 @@ var gSoundList = [
 "两飞船爆炸.wav",
 "两飞船爆炸.wav",
 
-"need_backup.wav",
+"[B]小弟们_出来.wav",
+
+"[K]老大老大.wav",
+"[B]给我干嘛_上呀.wav",
 
 "小弟出场destory.wav",
 "枪3_3.wav",
-
-"火球.wav",
+"火球x2.wav",
 
 "小弟脚步声.wav",
 "小弟脚步声.wav",
@@ -82,9 +124,10 @@ var gSoundList = [
 
 "小弟向前冲.wav",
 "惊讶.wav",
-
 "hpain4.wav",
 "hpain3.wav",
+
+"[B]唉_这群废物.wav",
 
 "毒液喷丝.wav",
 "毒液喷丝.wav",
@@ -105,7 +148,6 @@ var gSoundList = [
 "毒液喷丝.wav",
 "毒液喷丝.wav",
 
-
 "死.wav",
 
 "毒液笑11.wav",
@@ -114,6 +156,9 @@ var gSoundList = [
 
 "挥平底锅.wav",
 "平底锅响声.wav",
+
+"[m]公主_救我.wav",
+"[p]噢Mario_你在这里呀.wav",
 
 "滿血回复.wav",
 

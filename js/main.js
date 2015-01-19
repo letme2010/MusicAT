@@ -176,7 +176,9 @@ function afterSoundPlay(aAudioName) {
     } else if ("滿血回复.wav" == aAudioName) {
         setTimeout(function(){onPlayBgMusic();}, 1000);           
     } else if ("引擎启动.wav" == aAudioName) {
-        setTimeout(function(){onPlayBgMusic();}, 1000);                   
+        setTimeout(function(){onPlayBgMusic();}, 2000);                   
+    } else if ("小弟出场destory.wav" == aAudioName) {
+        setTimeout(function(){onPlayBgMusic();}, 2000);                           
     }
 }
 
