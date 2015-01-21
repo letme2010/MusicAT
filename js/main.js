@@ -173,11 +173,7 @@ function afterSoundPlay(aAudioName) {
         setTimeout(function(){onPlayBgMusic();}, 2000);   
     } else if ("解除暂停.wav" == aAudioName) {
         goOnBgMusic();
-    } else if ("滿血回复.wav" == aAudioName) {
-        setTimeout(function(){onPlayBgMusic();}, 1000);           
-    } else if ("引擎启动.wav" == aAudioName) {
-        setTimeout(function(){onPlayBgMusic();}, 2000);                   
-    } else if ("小弟出场destory.wav" == aAudioName) {
+    } else if ("跳_拿星星.wav" == aAudioName) {
         setTimeout(function(){onPlayBgMusic();}, 2000);                           
     }
 }

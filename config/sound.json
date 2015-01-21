@@ -46,8 +46,11 @@ var gSoundList = [
 "龟壳撞击.wav",
 "跳[小].wav",
 
-//"boss睡着.wav",
+"跳[小].wav",
+
 "boss龙叫声.wav",
+"boss龙叫声.wav",
+
 "aha.wav",
 
 "送iphone.wav",
@@ -108,6 +111,9 @@ var gSoundList = [
 "[B]给我干嘛_上呀.wav",
 
 "小弟出场destory.wav",
+
+"跳[小].wav",
+
 "枪3_3.wav",
 "火球x2.wav",
 
@@ -116,9 +122,6 @@ var gSoundList = [
 "小弟脚步声.wav",
 "小弟巨人说话.wav",
 "小弟旋转.wav",
-"挥刀3.wav",
-"挥刀3.wav",
-"挥刀3.wav",
 "小弟打地.wav",
 "小弟打地.wav",
 
@@ -129,11 +132,6 @@ var gSoundList = [
 
 "[B]唉_这群废物.wav",
 
-"毒液喷丝.wav",
-"毒液喷丝.wav",
-"毒液喷丝.wav",
-"毒液喷丝.wav",
-
 "挥刀1.wav",
 "挥刀1.wav",
 "挥刀1.wav",
@@ -142,11 +140,9 @@ var gSoundList = [
 "盾挡1.wav",
 "盾挡2.wav",
 "盾碎1.wav",
-"盾碎1.wav",
+"盾挡2.wav",
 
-"毒液喷丝.wav",
-"毒液喷丝.wav",
-"毒液喷丝.wav",
+"飞踢.wav",
 
 "死.wav",
 
